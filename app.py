@@ -33,10 +33,11 @@ def ask():
     query = request.form['messageText'].strip().lower()
 
     if query in ["who developed you?", "who created you?", "who made you?"]:
-        return jsonify({"answer": "I was developed by Jayesh Bhandarkar."})
+        return jsonify({"answer": "I was developed by Mann."})
     
     response = chain(query)
     return jsonify({"answer": response['result']})
 
 if __name__ == "__main__":
     app.run(debug=True)
+
