@@ -117,7 +117,7 @@ $(function() {
         }
     }
 
-    var welcomeMessage = "🌱🌾 Welcome to AgriGenius !! 🌾🌱 Hi there! I'm AgriGenius, your virtual assistant for Agriculture. How can I assist you today?";
+    var welcomeMessage = "🌱🌾 Welcome to MannAgriBot !! 🌾🌱 Hi there! I'm MannAgriBot, your virtual assistant for Agriculture. How can I assist you today?";
 
     $('#chatbot-form-btn-clear').click(function(e) {
         e.preventDefault();
@@ -159,4 +159,5 @@ $(function() {
     setTimeout(function() {
         appendMessage(welcomeMessage, false);
     }, 500);
+
 });
